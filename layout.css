@@ -13,7 +13,7 @@ body{
 .top
 {
   width: 100%;
-  height:11%;
+  height:9.5%;
   background:#f0f2f5;
   display:flex;
 
@@ -21,7 +21,7 @@ body{
 
 .middle {
 
-  height: 78%;
+  height: 81%;
   display:flex;
   justify-content: center;
   align-items: center;
@@ -31,7 +31,7 @@ body{
   display:flex;
   justify-content:space-around;
   align-items:center;
-  height:11%;
+  height:9.5%;
 }
 
 .middlechild
