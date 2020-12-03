@@ -3,99 +3,101 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 html {
   font-size: 62.5%;
 }
-body{
+
+body {
   height:100vh;
   font-size: 3rem;
 }
-.middlechild
-{
+
+.middlechild {
    font-family: sans-serif;
    text-align: center;
    font-size: 6rem;
    font-weight:300;
    color:#e8605d;
  }
+
 @media only screen and (max-width: 62em) {
   html {
     font-size: 56.25%;
   }
-    body {font-size: 6rem;}
-    .middlechild {
-      font-size: 12rem;
-    }
+  body {
+    font-size: 6rem;
+  }
+  .middlechild {
+    font-size: 12rem;
+  }
 }
+
 @media only screen and (max-width: 48em) {
   html {
     font-size: 50%;
-    }
-    body {font-size: 7rem;}
-    .middlechild {
-      font-size: 13rem;
-    }
-}
-@media only screen and (max-width: 36em) {
-  html {
-    font-size: 50%;
   }
-  body {font-size: 7rem;}
+  body {
+    font-size: 7rem;
+  }
   .middlechild {
     font-size: 13rem;
   }
 }
+
+@media only screen and (max-width: 36em) {
+  html {
+    font-size: 50%;
+  }
+  body {
+    font-size: 7rem;
+  }
+  .middlechild {
+    font-size: 13rem;
+  }
+}
+
 @media only screen and (min-width: 112.5em) {
   html {
     font-size: 75%;
     }
 }
 
-#parent
-{
+#parent {
   height:100%;
 }
-.top
-{
+
+.top {
   width: 100%;
   height:8%;
   background:#f0f2f5;
   display:flex;
-
 }
 
 .middle {
-
   height: 84%;
   display:flex;
   justify-content: center;
   align-items: center;
 }
-.bottom
-{
+
+.bottom {
   display:flex;
   justify-content:space-around;
   align-items:center;
   height:8%;
 }
 
-.bottomchild
-{
-  /* font-size: 2rem; */
-}
-.topchild
-{
+.topchild {
  width:10%;
  margin:auto;
- /* font-size: 2rem; */
  text-align:center;
 }
-.topchild1
-{
+
+.topchild-heading {
  width:70%;
  margin:auto;
-font-family: 'Lobster', cursive;
- /* font-size: 2em; */
+ font-family: 'Lobster', cursive;
  text-align:center;
 
 }
