@@ -45,13 +45,13 @@ body{
 
 .bottomchild
 {
-  font-size: 4rem;
+  font-size: 3rem;
 }
 .topchild
 {
  width:10%;
  margin:auto;
- font-size: 4rem;
+ font-size: 3rem;
  text-align:center;
 }
 .topchild1
@@ -59,7 +59,7 @@ body{
  width:70%;
  margin:auto;
 font-family: 'Lobster', cursive;
- font-size: 4rem;
+ font-size: 3rem;
  text-align:center;
 
 }
