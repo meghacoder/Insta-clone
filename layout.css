@@ -3,9 +3,54 @@
   padding: 0;
   box-sizing: border-box;
 }
+html {
+  font-size: 62.5%;
+}
 body{
   height:100vh;
+  font-size: 3rem;
 }
+.middlechild
+{
+   font-family: sans-serif;
+   text-align: center;
+   font-size: 6rem;
+   font-weight:300;
+   color:#e8605d;
+ }
+@media only screen and (max-width: 62em) {
+  html {
+    font-size: 56.25%;
+  }
+    body {font-size: 6rem;}
+    .middlechild {
+      font-size: 12rem;
+    }
+}
+@media only screen and (max-width: 48em) {
+  html {
+    font-size: 50%;
+    }
+    body {font-size: 7rem;}
+    .middlechild {
+      font-size: 13rem;
+    }
+}
+@media only screen and (max-width: 36em) {
+  html {
+    font-size: 50%;
+  }
+  body {font-size: 7rem;}
+  .middlechild {
+    font-size: 13rem;
+  }
+}
+@media only screen and (min-width: 112.5em) {
+  html {
+    font-size: 75%;
+    }
+}
+
 #parent
 {
   height:100%;
@@ -34,24 +79,15 @@ body{
   height:8%;
 }
 
-.middlechild
-{
-   font-family: sans-serif;
-   text-align: center;
-   font-size: 3rem;
-   font-weight:300;
-   color:#e8605d;
- }
-
 .bottomchild
 {
-  font-size: 3.8rem;
+  /* font-size: 2rem; */
 }
 .topchild
 {
  width:10%;
  margin:auto;
- font-size: 3.8rem;
+ /* font-size: 2rem; */
  text-align:center;
 }
 .topchild1
@@ -59,7 +95,7 @@ body{
  width:70%;
  margin:auto;
 font-family: 'Lobster', cursive;
- font-size: 3.8em;
+ /* font-size: 2em; */
  text-align:center;
 
 }
